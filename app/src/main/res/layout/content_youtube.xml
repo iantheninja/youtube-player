@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context="com.iantheninja.youtubeplayer.YoutubeActivity"
+    tools:showIn="@layout/activity_youtube">
+    
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/yt_playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+</LinearLayout>
