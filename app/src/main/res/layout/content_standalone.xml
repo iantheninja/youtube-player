@@ -13,7 +13,11 @@
         android:id="@+id/btnPlayVideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#D32F2F"
         android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:padding="5dp"
+        android:layout_weight="1"
         android:text="@string/play_video" />
 
     <Button
@@ -21,6 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:background="#D32F2F"
+        android:textColor="#FFFFFF"
         android:text="@string/play_playlists" />
 
 </LinearLayout>
